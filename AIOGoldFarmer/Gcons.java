@@ -38,10 +38,10 @@ public class Gcons {
 	public final static String FIRST_STRING = "<col=0000ff>Getting started</col><br>Before you begin, have a read through";
     
 	//--------------areas--------------//
+	public static Area TUTORIAL_ISLAND_AREA;
 	public static Area LUMMY_CITY_AREA;
 	public static Area LUMMY_SWAMP_AREA;
 	public static Area LUMMY_CASTLE_AREA;
-	public static Area TUTORIAL_ISLAND_AREA;
 	public static Area LUMMY_GOBLIN_AREA;
 	public static Area LUMMY_SOUTH_MINING_AREA;
 	public static Area LUMMY_SOUTHWEST_MINING_AREA;
@@ -49,29 +49,29 @@ public class Gcons {
 	
 	public static void INITIALIZE_AREAS() {
 	
-		Area TUTORIAL_ISLAND_AREA = new Area(new Tile(3056, 3147, 0), new Tile(3024, 3082, 0), new Tile(3055, 3031, 0), new Tile(3137, 3040, 0),
+		TUTORIAL_ISLAND_AREA = new Area(new Tile(3056, 3147, 0), new Tile(3024, 3082, 0), new Tile(3055, 3031, 0), new Tile(3137, 3040, 0),
 				new Tile(3147, 3061, 0), new Tile(3171, 3068, 0), new Tile(3168, 3132, 0), new Tile(3142, 3134, 0), new Tile(3133, 3144, 0), new Tile(3088, 3143, 0),
 				new Tile(3079, 3149, 0));
 		
-	    Area LUMMY_GOBLIN_AREA = new Area(new Tile(3248, 3225, 0), new Tile(3250, 3223, 0), new Tile(3252, 3223, 0), new Tile(3255, 3221, 0),
+	    LUMMY_GOBLIN_AREA = new Area(new Tile(3248, 3225, 0), new Tile(3250, 3223, 0), new Tile(3252, 3223, 0), new Tile(3255, 3221, 0),
 	    		new Tile(3257, 3219, 0), new Tile(3259, 3218, 0), new Tile(3262, 3214, 0), new Tile(3267, 3214, 0), new Tile(3267, 3223, 0), new Tile(3268, 3224, 0),
 	    		new Tile(3268, 3232, 0), new Tile(3267, 3233, 0), new Tile(3267, 3239, 0), new Tile(3266, 3240, 0), new Tile(3266, 3247, 0), new Tile(3265, 3248, 0),
 	    		new Tile(3265, 3255, 0), new Tile(3238, 3255, 0), new Tile(3238, 3250, 0), new Tile(3239, 3235, 0), new Tile(3247, 3228, 0), new Tile(3248, 3227, 0),
 	    		new Tile(3254, 3227, 0), new Tile(3255, 3225, 0));
 	
-	    Area LUMMY_SOUTH_MINING_AREA = new Area(new Tile(3222, 3153, 0), new Tile(3220, 3147, 0), new Tile(3225, 3142, 0), new Tile(3233, 3142, 0),
+	    LUMMY_SOUTH_MINING_AREA = new Area(new Tile(3222, 3153, 0), new Tile(3220, 3147, 0), new Tile(3225, 3142, 0), new Tile(3233, 3142, 0),
 	    		new Tile(3233, 3148, 0), new Tile(3228, 3153, 0));
 	    
-	    Area LUMMY_SOUTHWEST_MINING_AREA = new Area(new Tile(3142, 3163, 0), new Tile(3132, 3146, 0), new Tile(3144, 3134, 0), new Tile(3158, 3140, 0));
+	    LUMMY_SOUTHWEST_MINING_AREA = new Area(new Tile(3142, 3163, 0), new Tile(3132, 3146, 0), new Tile(3144, 3134, 0), new Tile(3158, 3140, 0));
 	    
-	    Area LUMMY_CASTLE_AREA = new Area(new Tile(3201, 3234, 0), new Tile(3204, 3237, 0), new Tile(3213, 3237, 0), new Tile(3215, 3235, 0),
+	    LUMMY_CASTLE_AREA = new Area(new Tile(3201, 3234, 0), new Tile(3204, 3237, 0), new Tile(3213, 3237, 0), new Tile(3215, 3235, 0),
 	    		new Tile(3221, 3235, 0), new Tile(3227, 3229, 0), new Tile(3227, 3225, 1), new Tile(3228, 3226, 1), new Tile(3230, 3226, 1), new Tile(3231, 3225, 1),
 	    		new Tile(3231, 3222, 1), new Tile(3230, 3221, 1), new Tile(3230, 3217, 0), new Tile(3231, 3216, 0), new Tile(3231, 3213, 0), new Tile(3230, 3212, 0),
 	    		new Tile(3228, 3212, 0), new Tile(3227, 3213, 0), new Tile(3227, 3209, 0), new Tile(3221, 3203, 0), new Tile(3215, 3203, 0), new Tile(3213, 3201, 0),
 	    		new Tile(3204, 3201, 0), new Tile(3201, 3204, 0), new Tile(3201, 3217, 0), new Tile(3200, 3217, 0), new Tile(3199, 3218, 0), new Tile(3199, 3219, 0),
 	    		new Tile(3200, 3220, 0), new Tile(3201, 3220, 0));
 	    
-	    Area SPAWN_AREA = new Area(new Tile(3238, 3223, 0), new Tile(3234, 3218, 0), new Tile(3234, 3212, 0), new Tile(3239, 3213, 0),
+	    SPAWN_AREA = new Area(new Tile(3238, 3223, 0), new Tile(3234, 3218, 0), new Tile(3234, 3212, 0), new Tile(3239, 3213, 0),
 				new Tile(3239, 3217, 0), new Tile(3243, 3217, 0));
     
 	}
